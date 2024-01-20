@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(Gilroy-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Gilroy;
+  width: 595px;
+  height: 842px;
+  border-top: solid 7px #005889;
+}
+
+.container {
+  margin: 36px 23px 69px 48px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contain-header {
+  margin-left: 30px;
+}
+
+h1 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  width: 524px;
+  height: 26px;
+  flex-shrink: 0;
+  margin: 0;
+  width: 524px;
+  height: 26px;
+}
+
+.personal-details {
+  display: inline-flex;
+  gap: 13px;
+  line-height: 17.5px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.strongmail {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 17.5px;
+  margin-bottom: 10.5px;
+}
+
+a,
+h3,
+#title,
+#edu,
+#● {
+  color: #005889;
+}
+
+a {
+  text-decoration: none;
+}
+
+.obj h3,
+.exp h3,
+.edu h3,
+.skills h3,
+.leader h3,
+.achv h3 {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.obj h3,
+.exp h3 {
+  font-size: 15px;
+}
+
+.edu h3,
+.skills h3,
+.leader h3,
+.achv h3 {
+  font-size: 16px;
+}
+
+.personal-details,
+.obj,
+.exp,
+.edu,
+.achv,
+.leader b {
+  font-size: 10px;
+}
+
+.leader span {
+  font-size: 9px;
+}
+
+.achv,
+.leader,
+.edu,
+.exp,
+.obj,
+.skills th,
+h3 {
+  line-height: 18px;
+}
+
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+.skills b {
+  font-size: 15px;
+}
+
+.skillsin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 15.5px;
+}
